@@ -1,7 +1,8 @@
 //array for songs
 var songList = ["wannabe", "macarena", "creep", "all" + "" + "star", "baby" + "" + "one" + "" + "more" + "" + "time", "closing" + "" + "time"
 ];
-
+//add array for artist image in comparrisn to songList array
+//add array for  artist + song title to be displayed after each correct guess
 //select songs maybe math.random?
 var songChoice = Math.floor(Math.random() * songList.length);
 var choosenSongList = songList[songChoice];

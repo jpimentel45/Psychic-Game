@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--CSS RESET-->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap File -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="assets/javascript/game.js"></script>
     <title>Document</title>
 
 </head>
 
-<body>
+<body
+    style="background-image: url('https://media1.tenor.com/images/688f801578fd132762b005bf9e768eb8/tenor.gif?itemid=4919993')"
+    ;>
 
-    <div class="header">
-        <h1>Word Guess Game</h1>
+    <div class="header" style="text-align: center" ;>
+        <h1 class="text animated wobble">Word Guess Game</h1>
         <h2>90's Bitch</h2>
     </div>
 
@@ -31,41 +31,41 @@
         <div class="row">
             <div class="col big-box">
                 <!--grabelementbyID to set each image when user guesses correctly-->
-                <img id="songImage" src="" alt="psychic">
+                <img id="songImage" src="" alt="currentArtist">
             </div>
             <div class="col">
                 <div class="row">
                     <div class="col mini-box">
-                        <p1 id="key" onkeypress="myFunction()">Press any key to get started!</p>
+                        <p1 class="red" id="key" onkeypress="myFunction()">Press any key to get started!</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col mini-box">
-                        <p>Wins: </p>
+                        <p class="orange">Wins: </p>
                         <!--use increment counter to increase wins -->
                         <P class="wins"> </P>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col mini-box">
-                        <p>Current Word</p>
+                        <p class="yellow">Current Word</p>
                         <!--Display as [_ _ _], change as user input correct-->
                         <p class="underScore">_______</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col mini-box">
-                        <p>Number of Guesses Remaining:</p>
+                        <p class="green">Number of Guesses Remaining:</p>
                         <!--Display as 12, i-- as user guess incorrect-->
-                        <p class="remainingGuess">12</p>
+                        <p class="remainingGuess orange">12</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col mini-box">
-                        <p>Letters Already Guessed:</p>
+                        <p class="blue">Letters Already Guessed:</p>
                         <!--grab element to input incorrect words for each keypress-->
-                        <p class="alreadyGuessed"> </p>
+                        <p class="alreadyGuessed purple"> </p>
                     </div>
                 </div>
             </div>
